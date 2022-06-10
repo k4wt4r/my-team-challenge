@@ -1,0 +1,280 @@
+.team-page {
+    height: 100vh;
+    width: 100vw;
+}
+
+.headerWho-we-are {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+
+
+
+}
+
+.title-of-team {
+    font-size: 18px;
+
+}
+
+.title-description {
+    width: 450px;
+    letter-spacing: 0.2px;
+    padding-right: 60px;
+    text-align: start;
+}
+
+.team-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.who-we-are {
+    font-size: 22px;
+    padding-bottom: 8px;
+}
+
+.description {
+
+    font-size: 20px;
+}
+
+.cards {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.position {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 4px;
+}
+
+.team-members {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 69%;
+}
+
+.container-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 44px;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+img {
+    width: 290px;
+
+}
+
+.card-Lu,
+.card-saba,
+.card-Griff,
+.card-Le,
+.card-Stan,
+.card-bill {
+    width: 100%;
+    display: flex;
+}
+
+.card-saba,
+.card-Griff {
+    position: relative;
+    bottom: -60px;
+
+}
+
+.name,
+.name-saba,
+.name-Griff {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    text-align: start;
+    z-index: 1;
+    padding-top: 4px;
+    padding-bottom: 20px;
+
+}
+
+.card {
+    position: relative;
+    bottom: 20px;
+}
+
+.name-saba,
+.name-Griff {
+    position: relative;
+    bottom: -60px;
+    z-index: 1;
+    padding-bottom: 40px;
+    padding-top: 4px;
+}
+
+
+.footer-container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(86, 82, 82);
+    padding: 2px;
+}
+
+@media screen and (max-width: 768px) {
+    .container-cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        height: max-content;
+
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .headerWho-we-are {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .title-description {
+        width: 100%;
+        padding-left: 40px;
+        margin-right: 50px;
+
+
+    }
+
+    .title-of-team {
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-right: 50px;
+
+    }
+
+    .team-section {
+        padding-bottom: 150px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .team-members {
+        width: 80%;
+
+    }
+
+    .cards {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        width: 130px;
+        height: 180px;
+    }
+
+    .name,
+    .name-saba,
+    .name-Griff {
+        font-size: 14px;
+        padding: 0;
+        width: 100%;
+    }
+
+    .name-saba,
+    .name-Griff {
+        position: relative;
+        bottom: 0px;
+        z-index: 1;
+        width: 100%;
+
+    }
+
+    .position {
+        font-size: 12px;
+
+    }
+
+    .card-Lu,
+    .card-saba,
+    .card-Griff,
+    .card-Le,
+    .card-Stan,
+    .card-bill {
+        width: 100%;
+        display: flex;
+    }
+
+    .card-saba,
+    .card-Griff {
+        position: relative;
+        bottom: 0;
+
+    }
+
+    .card-saba,
+    .card-Lu,
+    .card-Stan{
+        position: relative;
+        bottom: -40px;
+    }
+    .name-saba,
+    .name-Lu,
+    .name-Stan{
+        position: relative;
+        bottom: -40px;
+        font-size: 14px;
+    }
+
+        .description{
+            font-size: 16px;
+            align-items: initial;
+        }
+
+
+
+}
